@@ -6,6 +6,7 @@ A modern, immersive landing page featuring a 3D donut model as a fully interacti
 
 ## Preview
 ![Animation](https://github.com/user-attachments/assets/a9521900-cb04-457c-abf8-a56021e823ab)
+![Animation-Perview](https://github.com/user-attachments/assets/c1623b6c-1fc6-4a68-ad39-6d0a51d442c3)
 
 
 | Landing Page | Video Player |
@@ -30,8 +31,6 @@ A modern, immersive landing page featuring a 3D donut model as a fully interacti
 - **Rim Point Light** (warm gold) for edge highlights
 - ACES Filmic tone mapping for cinematic color grading
 
-
-https://github.com/user-attachments/assets/ea4b269a-1b4a-452e-bc39-3d9888e955d3
 
 
 ### Loading Experience
@@ -72,11 +71,10 @@ https://github.com/user-attachments/assets/ea4b269a-1b4a-452e-bc39-3d9888e955d3
 ## Project Structure
 
 ```
-lime-crow/
+3D-web-donut/
 ├── index.html          # Complete single-file application
-├── Donut.glb           # 3D model (GLTF Binary)
+├── donut.glb           # 3D model (GLTF Binary)
 ├── 0001-0160.mp4       # Video asset for the Explore overlay
-├── package.json        # Project metadata and scripts
 └── README.md           # This file
 ```
 
@@ -106,7 +104,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ## Configuration
 
 ### Changing the 3D Model
-Replace `Donut.glb` with any GLTF/GLB file. The loader auto-centers and scales the model to fit the viewport.
+Replace `donut.glb` with any GLTF/GLB file. The loader auto-centers and scales the model to fit the viewport.
 
 ### Adjusting Rotation Speed
 In `index.html`, modify:
@@ -129,20 +127,3 @@ renderer.toneMappingExposure = 1.2; // Overall brightness
 ```
 
 ---
-
-## Browser Support
-
-| Browser | Status |
-|---|---|
-| Chrome 90+ | Supported |
-| Firefox 90+ | Supported |
-| Safari 15+ | Supported |
-| Edge 90+ | Supported |
-
-> Requires WebGL 2.0 and ES Module support.
-
----
-
-## License
-
-This project is open source and available under the [MIT License](https://opensource.org/licenses/MIT).
