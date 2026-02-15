@@ -5,7 +5,6 @@ A modern, immersive landing page featuring a 3D donut model as a fully interacti
 ---
 
 ## Preview
-![Animation](https://github.com/user-attachments/assets/a9521900-cb04-457c-abf8-a56021e823ab)
 ![Animation-Perview](https://github.com/user-attachments/assets/c1623b6c-1fc6-4a68-ad39-6d0a51d442c3)
 
 
